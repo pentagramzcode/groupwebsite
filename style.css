@@ -1,0 +1,206 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav .logo a {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+}
+
+nav ul.menu {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul.menu li {
+  margin: 0 10px;
+}
+
+nav ul.menu li.active a {
+  background-color: #444;
+}
+
+.hero {
+  background-image: url('https://picsum.photos/1200/800');
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  padding: 50px;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.5rem;
+  margin-bottom: 40px;
+}
+
+.button {
+  background-color: #ff5733;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 1.2rem;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.button:hover {
+  background-color: #c24e2c;
+}
+
+.services {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 50px 0;
+}
+
+.service {
+  width: 300px;
+  margin: 0 20px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.service i {
+  font-size: 4rem;
+  margin-bottom: 20px;
+}
+
+.service h3 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.service p {
+  font-size: 1.2rem;
+}
+
+.about {
+  background-color: #f7f7f7;
+  padding: 50px;
+}
+
+.about h2 {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+}
+
+.about p {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
+
+.about ul {
+  margin-bottom: 20px;
+}
+
+.about ul li {
+  margin-bottom: 10px;
+}
+
+.contact {
+  padding: 50px;
+}
+
+.contact h2 {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+}
+
+.contact p {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact form label {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.contact form input, .contact form textarea {
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5
+}
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+footer p {
+  margin-bottom: 10px;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  header nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  header .logo {
+    margin-bottom: 20px;
+  }
+
+  nav ul.menu {
+    margin-top: 20px;
+  }
+
+  .services {
+    margin-top: 50px;
+  }
+
+  .service {
+    margin: 0;
+    margin-bottom: 40px;
+  }
+}
