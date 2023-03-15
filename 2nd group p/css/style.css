@@ -56,14 +56,14 @@ nav ul li a:hover {
 
 /* Hero section styles */
 .hero {
-  background-image: url("https://images.unsplash.com/photo-1593642634327-958ef3c44bb3");
+  background-image: url("https://images.unsplash.com/phothttps://images.pexels.com/photos/60504/security-protection-anti-virus-software-60504.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1o-1593642634327-958ef3c44bb3");
   background-size: cover;
   background-position: center;
   height: 600px;
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #fff;
+  color: rgb(0, 0, 0);
   text-align: center;
 }
 
@@ -162,3 +162,18 @@ footer {
   font-size: 14px;
   margin-top: 
 }
+
+.first-info{
+    text-align: right;
+    padding-right: 100px;
+}
+.button {
+    background-color: #97edfc; 
+    border: none;
+    color: white;
+    padding: 15px 35px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
